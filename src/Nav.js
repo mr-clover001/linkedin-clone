@@ -19,7 +19,7 @@ function Nav() {
       </div>
       <div className="nav_right">
         <NavContents Icon={HomeIcon} title="Home" />
-        <NavContents Icon={HomeIcon} title="Home" />
+        <NavContents Icon={HomeIcon} title="Chat" />
         <NavContents Icon={HomeIcon} title="Home" />
         <NavContents Icon={HomeIcon} title="Home" />
         <NavContents Icon={HomeIcon} title="Home" />
