@@ -7,7 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 0.4;
+  flex: 0.6;
 }
 .nav_left > img {
   height: 50px;
@@ -17,6 +17,7 @@
 
 .search_box {
   display: flex;
+  color: gray;
 }
 
 .search_box > input {
@@ -26,4 +27,5 @@
 
 .nav_right {
   display: flex;
+  align-items: center;
 }
