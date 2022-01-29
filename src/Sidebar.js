@@ -4,17 +4,25 @@ import "./Sidebar.css";
 
 function Sidebar() {
   return (
-    <div className="Sidebar_conta" iner>
-      <div className="Sidebar_contents">
-        <img className="Sidebar_image" src="" alt="" />
+    <div className="sidebar">
+      <div className="sidebar_top">
+        <img src="https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80" />
         <Avatar />
-        <h2>Anoop kumar</h2>
-        <p className="Sidebar-email">ak3105@gmail.com</p>
-        <div className="Sidebar_post">
-          <p>Who viewed you</p>
-          <span className="Sidebar_post1">2345</span>
+        <h2>Anoop Kumar</h2>
+        <h4>ak6260168744@gmail.com</h4>
+      </div>
+
+      <div className="sidebar_stats">
+        <div className="sidebar_stat">
+          <p>who viewed you</p>
+          <p className="sidebar_statNumber">2313</p>
+        </div>
+        <div className="sidebar_stat">
+          <p>views on the post</p>
+          <p className="sidebar_statNumber">2316</p>
         </div>
       </div>
+      <div className="sidebar_bottom"></div>
     </div>
   );
 }

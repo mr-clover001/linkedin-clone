@@ -3,6 +3,6 @@
   background-color: whitesmoke;
 }
 
-.app {
-  color: rgb(63, 62, 62);
+.app_body {
+  display: flex;
 }

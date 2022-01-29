@@ -6,7 +6,10 @@ function App() {
   return (
     <div className="app">
       <Nav />
-      <Sidebar />
+      <div className="app_body">
+        <Sidebar />
+      </div>
+
       {/* nav */}
       {/* sidebar */}
       {/* feed component */}
