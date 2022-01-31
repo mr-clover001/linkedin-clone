@@ -45,6 +45,7 @@
 }
 
 .sidebar_stats {
+  background-color: white;
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid lightgray;
@@ -69,6 +70,7 @@
   color: #0a66c2 !important;
 }
 .sidebar_bottom {
+  background-color: white;
   text-align: left;
   padding: 10px;
   border: 1px solid lightgray;
