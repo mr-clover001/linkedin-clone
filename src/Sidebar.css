@@ -1,11 +1,12 @@
 .sidebar {
   position: sticky;
-  top: 80px;
+  top: 88px;
   flex: 0.2;
   border-radius: 10px;
-
   height: fit-content;
   text-align: center;
+  padding-left: 120px;
+  padding-top: 10px;
 }
 
 .sidebar_avatar {
@@ -16,16 +17,15 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  border: 1px solid gray;
-  /* border-radius: 10px; */
+  border: 1px solid lightgray;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  /* margin: 100px; */
   background-color: white;
   padding-bottom: 10px;
 }
 
 .sidebar_top > img {
+  margin-bottom: -20px;
   width: 100%;
   height: 50px;
   border-top-left-radius: 10px;
@@ -46,12 +46,57 @@
 
 .sidebar_stats {
   padding: 10px;
-  /* border-top-left-radius: 10px;
-  border-top-right-radius: 10px; */
-  border: 1px solid gray;
+  margin-bottom: 10px;
+  border: 1px solid lightgray;
+  border-top: none;
+  border-radius: 0 0 10px 10px;
 }
 
-.sidebar_stats .sidebar_stat {
+.sidebar_stat {
+  margin-top: 10px;
   display: flex;
   justify-content: space-between;
+}
+
+.sidebar_stat > p {
+  color: gray;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.sidebar_statNumber {
+  font-weight: bold;
+  color: #0a66c2 !important;
+}
+.sidebar_bottom {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+
+.sidebar_recentItem {
+  display: flex;
+  font-size: 13px;
+  color: gray;
+  font-weight: bolder;
+  margin-bottom: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.sidebar_hash {
+  margin: 0 10px;
+}
+
+.sidebar_bottom > p {
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+.sidebar_recentItem:hover {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  cursor: pointer;
+  color: black;
 }
